@@ -5,10 +5,7 @@ const db = mysql.createPool({
   user: 'candidate',
   password: 'NoTeDeSt^C10.6?SxwY882}',
   database: 'conqtvms_dev',
-  port: 3306,
-  waitForConnections: true,
-  connectionLimit: 10,
-  queueLimit: 0
+  port: 3306
 });
 
 module.exports = db;
